@@ -1,0 +1,7 @@
+intents:
+  - tag: oil_palm_seedlings
+    patterns:
+      - "How can I buy genuine oil palm seedlings?"
+    responses:
+      - "It is important that farmers use only hybrid oil palm seeds which are produced by crossing the thick-shelled dura (D) variety and shelless pisifera (P) variety. The hybrid is called tenera or DxP variety. To ensure that you buy only recommended hybrid seedlings, you should buy oil palm seedlings only from authorised or licensed nurseries. In Malaysia, oil palm nursery operators have to be licensed by the MPOB. If you are not sure, request to have a look at the MPOB license. In Indonesia, all oil palm planting materials must be certified. When in doubt, always ask the dealer to show their certificate of authentication. Reliable and certified seed producers may also stamp their logo on their seed, as in the example below: As a general guide, NEVER buy seeds from a ‘middleman’ or trader. Do not use seeds collected from the fields of smallholders. ALWAYS buy planting materials from licensed or certified producers of quality seeds."
+

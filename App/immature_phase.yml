@@ -1,0 +1,1008 @@
+intents:
+  - tag: greeting
+    patterns:
+      - "hello"
+      - "hi"
+      - "hey"
+      - "how are you"
+      - "what's up"
+    responses:
+      - "Hello! How can I help you?"
+      - "Hi there! How can I assist you today?"
+  - tag: goodbye
+    patterns:
+      - "bye"
+      - "goodbye"
+      - "see you later"
+    responses:
+      - "Goodbye! Have a nice day."
+      - "See you later! Take care."
+  - tag: pre-nursery
+    patterns:
+    - "pre-nursery"
+    - "pre-nursery stage"
+    - "preparing pre-nursery"
+    - "pre-nursery maintenance"
+    responses:
+    - "Pre-Nursery preparation:\n- Shade is needed\n  - Age 0 – 1.5 month, 100 %\n  - 1.5 – 2.5 month, 50%\n  - 2.5 month, 0%\n- Polybag dimension for pre-nursery: 22 x 14 cm (when more than 50 seedlings are being raised). The bottom is perforated with 20 holes 5 mm in diameter\n- Top soil planting media filled to 10 cm\n- A hole 2-3 cm deep is made in the middle of each bag. The seed is placed at the bottom of the hole, radicle pointing downwards, and is covered with soil to a maximum depth of 1 cm.\n- Phosphate fertilizer is dissolved in the water (500 g SP36/10 litre water) and mixed in every cubic metre of soil planting media. The planting media is cured for one month\n\nPre-nursery maintenance:\n- Pre-nursery - 3 months in the smaller sized polybag\n- Irrigation - twice a day\n- Weed control - Weeding is conducted every two-week. Herbicide should not be used!\n- Disease control - Helminthosporium, Anthracnose blast, Corticum, busuk pucuk. Preventive spray can be done using fungicide for seedlings which already have 6 leaf blades.\n- Pest control - Extra caution shall be exercised when chemical-based pesticide is used.\n- Fertilization - Weekly application of urea at 2 g/liter of water for 100 seedlings. NPKMg 15-15-6-4 is provided at 2.5 g/polybag."
+
+  - tag: seedling-raising
+    patterns:
+    - "raising seedlings"
+    - "nursery to planting"
+    - "steps in seedling raising"
+    - "how to raise seedlings"
+    responses:
+    - "The steps in raising seedlings in the nursery to planting in the field are:\n1) Pre-nursery stage\n2) Main nursery\n3) Land preparation\n4) Transferring and planting in the field."
+  - tag: seedling-transfer
+    patterns:
+    - "how to transfer seedlings"
+    - "transfer seedlings"
+    - "transferring from pre-nursery to main nursery"
+    - "steps in seedling transfer"
+    - "seedling transfer process"
+    responses:
+    - "Transferring from the pre-nursery to the main nursery requires the following:\n\u2022 Polybag dimensions for main nursery - 50 x 40 cm. The lower half of each bag is perforated with three rows of holes 5 cm apart and 3-4 mm in diameter.\n\u2022 The substrate for filling the bags should come from a site near the nursery. Of a sandy texture, it can be sieved (2 cm mesh) at the collection site and may also be enriched with compost.\n\u2022 A day prior to transferring seedlings to the main nursery, the soil in the polybag needs to be watered until saturated.\n\u2022 The seedlings need to be quickly watered as soon as the transfer process has been completed.\n\u2022 4 g of NPKMg 15-15-6-4 is applied in the planting hole of main nursery polybag."
+  - tag: seedling_maintenance
+    patterns:
+      - "how are seedlings maintained at the main nursery stage?"
+      - "seedlings maintained at the main nursery stage"
+      - "seedlings maintain"
+      - "seedlings maintain at main nursery stage?"
+    responses:
+      - "Main Nursery: 4 - 12 months till the seedlings\n- Watering: Twice with a total of 2 litre/day/polybag\n- Weed control: The use of herbicide needs to be extra cautious. Nozzle of the sprayer should not touch the seedlings. Spraying should be stopped if wind has the potential to direct herbicide droplet to the seedlings.\n- Pest and disease control: should be applied with caution as in pre-nursery\n- Fertilisation: Fertilisers should be broadcasted evenly about 5 cm from the stem of the seedling, and it should not touch the seedling. Fertilisation needs to be stopped a month prior to planting in the field.
+          Main nursery fertilisation (g/tree/month)
+          Age(week)       NPKMg 15:15:6:4      NPKMg 12:12:17:2         Kieserite
+          14-15             2.5
+          16-17             5.0
+          18-20             7.5
+          22-24             10
+          26                                     10
+          28                                     10                     5
+          30                                     10
+          32                                     10                     5
+          34                                     15
+          36                                     15                     7.5
+          38                                     15
+          40                                     15                     7.5
+          42                                     20
+          44                                     20                     10
+          46                                     20
+          48                                     20                     10
+          50                                     25
+          52                                     25                     10"
+         
+  - tag: seedling_maintenance
+    patterns:
+      - "What are the steps for planting polybag seedlings in the field?"
+      - "steps for planting polybag seedlings"
+      - "What are the steps for planting polybag seedlings"
+      - "What are the steps for planting polybag seedlings in the field?"
+      - "planting polybag seedlings"
+    responses:
+      - "The processes are 1) preparation of seedlings for planting 2) developing field layout 3) making of planting holes Preparation for planting in the field
+        Preparation for planting in the field
+        * Seedlings aged 10 - 12 months are ready for planting the field. 3-4 weeks prior to the planting, polybags are rotated. Seedlings need to be well watered prior to
+        planting. Seedlings with height of more than 1.5 meter are cut to a height of 1.2 meter.
+        Field layout  planting distance and directions
+        * The first step in the process of laying an oil palm field out is to gather wooden pegs that will be used to peg out the farm land carefully before out-planting of seedlings
+        are carried out. The purpose of pegging out the field is to make sure that you have the correct distances between your seedlings when planted out. It is also important
+        that you have the correct density of palms on your land. This is because to get a good yield, you must plant the correct density of palms on your land. If the density
+        of palm is less, you will not get the right yield, and if the density is high the competition will increase for the space for the plants, as the roots will entangle
+        thereby, the yield will be low because the leaves will not have enough air and sun light
+        * Oil palm seedlings should be planted in a triangulated pattern in order for the trees to minimize light competition between the palms. The layout should also be done
+        across the slope of the farm land
+        * Planting holes are arranged in north-south direction. Trace lines across the slope and put in your pegs in straight lines; leave 7.8 meters between rows and 9 m
+        between pegs. In this way you can plant 143 oil palms per hectare; this is the best density. While tree density in sloping land is 132. Pull out tree stumps and remove
+        fallen trees close to the pegs, because these stumps and trees would interfere with the oil palms
+        Making planting holes
+        * Planting holes are made with dimensions of 0.60 x 0.60 x 0.60 meter, manually using a hoe or using hole digger
+        * Biofungicide Trichoderma is applied at a rate of 200 g/hole, and Rock Phosphate at 500 gram/hole."
+  - tag: soil conservation
+    patterns:
+    - "Why is soil conservation important?"
+    - "What are the goals of soil conservation?"
+    - "soil conservation"
+    - "importance of soil conservation"
+    responses:
+    - "Soil conservation is important because soil erosion causes the loss of fertile top soil. Soils in the tropics are often very sensitive to erosion, because there is much rainfall which washes the soil away from slopes. Once the soil is lost, it takes a long time to recover, and the fertility of eroded area will be reduced during this period. It is difficult to produce good yields on very eroded soils and soil erosion should therefore be prevented as much as possible. In addition to the loss of fertile top soil, erosion also usually results in the loss of fertilizers and organic material. The goals of soil conservation are to maintain good soil fertility, prevent erosion of the topsoil, limit the loss of fertilizers, and to optimize use of water."
+  - tag: oil_palm_soil_conservation
+    patterns:
+    - "What are the different soil conservation practices in oil palm cultivation?"
+    - "How to implement soil conservation in oil palm plantation?"
+    - "soil conservation practices in oil palm cultivation?"
+    - "soil conservation practices in oil palm cultivation?"
+    - "soil conservation practices"
+    responses:
+    - "Different soil conservation practices are implemented in oil palm plantations depending on the slope of the land:\n- 0-6° (0-10% slope): Generally, no conservation measures are needed in flat or undulating land. Soil conservation bunds may be constructed. Straight lining planting is adopted.\n- 6-9° (10-15% slope): Soil conservation bunds are constructed and silt pits are dug around palms.\n- 9-15° (15-25% slope): Individual palm platforms are constructed for each palm.\n- 15-25° (25-45% slope): Terraces are installed during plantation establishment.\n- >25° (45% slope or more): Oil palm should not be planted."
+  - tag: soil_conservation_bunds
+    patterns:
+    - "What are soil conservation bunds and how to construct them?"
+    - "How can I construct soil conservation bunds?"
+    - "soil conservation bunds"
+    - "soil conservation bunds and how to construct them?"
+    responses:
+    - "Soil conservation bunds are constructed to slow down the speed of run-off of rain water. They minimise soil erosion and reduce nutrient wash-off and also trap soil particles that flow with the water. Soil conservation bunds should be constructed during the land period. Each bund could be 1.0 to 1.5m wide and run continuously along the contour. Depending on the susceptibility of the land to water run-off and erosion, they could be constructed at intervals of 20 to 30m."
+  - tag: silt_pits
+    patterns:
+    - "What are silt pits and how to construct them?"
+    - "How can I construct silt pits?"
+    - "silt pits"
+    - "silt pits and how to construct them?"
+    responses:
+    - "Silt pits are effective in reducing the speed of water flow and trap loose soil particles which otherwise could be washed down and clog the field drains. They also act as a reservoir for soil moisture retention. Silts pits measuring about 1.0 to 1.5 m wide x 0.5 to 1.0 m deep are generally constructed at one side of the road or between palms."
+  - tag: planting_platforms
+    patterns:
+    - "What are planting platforms and how to construct them?"
+    - "How can I construct planting platforms?"
+    - "planting platforms"
+    - "construct planting platforms"
+    responses:
+    - "Platforms are constructed to reduce soil erosion and reduce the risk of nutrient loss during heavy rains and it also facilitates the harvesting and maintaining oil palm trees. Individual platforms should be created around each palm. Platforms should have the following design characteristics: Platform diameter should be 4—5 m, Platform surface should slope 3 to 6 0 ( 5—10%) in the opposite direction to the slope. Here are the steps to construct a planting platform: Step 1. Dig soil from the upper part of the circle and place it on the lower part. Ensure the bottom (supporting) part of the platform is wider than the top. Step 2. Compact the soil at the downhill edge of the platform to prevent washing away. Step 3. Stack fronds just upslope from the platform to reduce water flows."
+  - tag: planting_terraces
+    patterns:
+    - "What are terraces and how to construct them?"
+    - "How can I construct planting terraces?"
+    - "terraces and how to construct them"
+    - "terraces"
+    - "construct terraces"
+    responses:
+    - "Planting terraces are constructed in steeper areas to facilitate the planting, maintenance and harvesting of palms and to minimise soil erosion and reduce rain water runoff and nutrient losses. Terraces are usually constructed mechanically using a bulldozer at about 9 to 10 m intervals, depending on the terrain. Construction of terraces is a skilled operation and it is best to consult agronomists/managers/contractors on the correct procedure for construction."
+  - tag: zero burning
+    patterns:
+    - "what is zero burning"
+    - "explain zero burning"
+    - "zero burning definition"
+    - "zero burning"
+    responses:
+    - "In the past, fire was used to clear land for development or replanting of oil palm plantations. However, this method, although cheap and convenient, is highly unsustainable as it contributes to haze and transboundary air pollution. Since the great haze and air pollution that was experienced in the late 1990s in Southeast Asia, the oil palm industry has adopted the zero burning technique as a method for land clearing where the old tree stand is felled, shredded, stacked ad left in situ to decompose naturally. This environmentally sound approach does not cause air pollution and the recycling of the plant biomass improves the soil organic matter and soil fertility. Advice on how to implement the zero burning technique is given in the Guidelines for the Implementation of the ASEAN Policy on Zero Burning."
+  - tag: oil palm planting
+    patterns:
+    - "Can I plant oil palm trees in hilly areas?"
+    - "Is it recommended to plant oil palm trees in steep areas?"
+    - "What is the slope limit for planting oil palm trees?"
+    - "plant oil palm trees in hilly areas"
+    - "plant oil palm trees in hilly areas"
+    responses:
+    - "Planting on hilly or steep areas is not recommended as it could cause soil erosion. You are allowed to plant oil palm trees in areas with a slope of less than 25 0 or 45% only."
+  - tag: buffer zones
+    patterns:
+    - "Why should buffer zones be protected?"
+    - "What is the importance of buffer zones?"
+    - "buffer zones be protected?"
+    - "buffer zones"
+    responses:
+    - "Riparian zones are areas of land adjacent to water bodies, including banks of streams, rivers, the edges of lakes and ponds. They are very important habitats and support a diversity of terrestrial and aquatic species. Riparian zones should be preserved to protect water bodies from the impacts of agriculture in addition to protecting water quality and biodiversity of soil and aquatic life." 
+  - tag: leguminous plants
+    patterns:
+    - "What is the purpose of planting leguminous ground cover plants?"
+    - "Why should leguminous plants be maintained in oil palm plantations?"
+    - "What are the benefits of growing leguminous ground cover plants in oil palm plantations?"
+    - "leguminous ground cover plants"
+    - "purpose of planting leguminous ground cover plants?"
+    responses:
+    - "Legume ground cover plants are grown to:
+      • Control weeds in oil palm plantations
+      • Prevent erosion and loss of soil organic matter
+      • Maintain soil moisture and temperature
+      • Supply Nitrogen through N fixation by soil bacteria.
+      • Attract the presence of natural enemies of pests"
+  - tag: legume_ground_cover
+    patterns:
+    - "recommended legume ground cover plants"
+    - "what legumes are good for ground cover"
+    - "ground cover"
+    responses:
+    - "Recommended cover legumes include (Mucuna bracteata, Pueraria spp., Centrosema spp and Calopogonium spp.) Mucuna bracteata is shade tolerant and could continue to provide benefits to the palm after the palm canopies have closed in."
+  - tag: legume_ground_cover_establishment
+    patterns:
+    - "how to establish legume ground covers"
+    - "legume ground covers"
+    - "what is the best time to sow legume cover crops"
+    - "what are the sowing rates for legume cover crops"
+    responses:
+    - "Legume cover crops are best sown at the time of land preparation, when all the other weeds have been cleared. If there are many weeds, then the legumes may still grow, but selective weeding will become very difficult. In plantations where clear-weeding was a normal practice, legume cover crops can be sown directly after spraying. For sowing or planting legume cover crops, the sowing rates for recommended cover crops are as follows: Calopogonium caeruleum: 1—1.5 kg per hectare, Calopogonium mucunoides: 1—3 kg per hectare, Pueraria phaseloides (also known as Pueraria javanica): 3—4 kg per hectare, Mucuna bracteata: 200—300 g per hectare."
+  - tag: circle_weeding_immature_oil_palm
+    patterns:
+    - "why is circle weeding necessary in immature oil palm areas"
+    - "what is the purpose of circle weeding in oil palm plantations"
+    - "purpose of circle weeding in oil palm plantations"
+    responses:
+    - "Circle weeding is necessary in immature oil palm areas to ensure optimal oil palm growth by manually removing weeds, especially noxious weeds like alang-alang (Imperata cylindrica) for moisture and nutrients. A weed-free circle is manually maintained for at least 6 months after planting; the size of the circle depends on the stage of growth of the palms. As a guide, weeding should be done up to 30 cm from the drip circle of the fronds. After 6 months, chemical spraying may be used for weed control."
+  - tag: what_are_weeds
+    patterns:
+    - "what are weeds"
+    - "define weeds"
+    - "what do you mean by weeds"
+    - "weeds"
+    responses:
+  - tag: major_noxious_weeds
+    patterns:
+    - "what are the major noxious weeds in oil palm in Southeast Asia"
+    - "list the major weeds in oil palm plantations"
+    - "noxious weeds in oil palm"
+    - "major noxious weeds"
+    - "which weeds are harmful for oil palm growth in Southeast Asia"
+    responses:
+    - "The major noxious weeds in oil palm plantations in Southeast Asia include:
+       1) Scientific name=Melastoma malabathricum , Common name=Straits rhododendron , Properties=Fast-growing flowering shrub, unpalatable for animals, dominant on P-deficient soils.
+       2) Scientific name=Clidemia hirta, Common name=Soapbush, Properties=Fast-growing flowering shrub, dominant on poor soils.
+       3) Scientific name=Mimosa pudica, Common name=Mimosa ,Properties=Fast-growing flowering shrub, unpalatable, thorny.
+       4) Scientific name=Lantana camara,Common name=Sage,Properties=Fast-growing flowering shrub, toxic to livestock.
+       5) Scientific name=Chromolaena odorata , Common name=Siam weed , Properties=Fast-growing flowering shrub, toxic to livestock, allelopathic.
+       6) Scientific name=Imperata cylindrica , Common name=Speargrass,alang-alang,lalang, Properties=Medium shade-tolerant grass with sharp edges to blades; dominant on poor and acid soils; young shoots palatable."
+  - tag: weed-control
+    patterns:
+    - "Why is it necessary to control weeds in mature oil palm?"
+    - "What is the importance of weed control in mature oil palm?"
+    - "control weeds in mature oil palm"
+    - "control weeds"
+    - "weed control"
+    responses:
+    - "It is necessary to control weeds in mature oil palm because weeds can grow and spread very quickly and are difficult to control. Palm trees also have to compete with weeds for fertilizer and water. Some weeds also can produce poison in its roots to reduce the growth of competitor plants (allelopathy) while some weeds are having a spine or being dangerous in some other way."
+  - tag: noxious weed-control
+    patterns:
+    - "What precautions must I take for chemical control of noxious weeds?"
+    - "chemical control of noxious weeds"
+    - "noxious weed-control"
+    responses:
+    - "Warning! Herbicides, pesticides and other chemicals are often toxic to humans, animals and palms, and should be used sparingly and with care.
+      Application of chemicals should always be carried out wearing full protective clothing including
+      a) Rubber gloves
+      b) Boots
+      c) Gas mask or mouth cover
+      d) Safety glasses
+      e) Rubber apron
+      It is recommended that spraying is carried out only by workers who have followed a training session Spray equipment should be kept clean and in good shape
+      Label every chemical container to say what is inside it (e.g. herbicide (with name), pesticide (with name), etc.) When preparing chemicals carefully follow the instructions on the
+      package Never store food in containers that were used for chemicals or fertilisers."
+  - tag: control weeds
+    patterns:
+    - "What is the procedure for spraying herbicides to control weeds"
+    - "procedure for spraying herbicides to control weeds"
+    - "spraying herbicides"
+    responses:
+    - "Herbicides can be sold as liquids or as powder. Liquid herbicides are often mixed at 0.5, 1 or 2 percent, which means 5, 10 or 20 ml per liter of water.
+      Always prepare herbicide solution according to the instructions on the package. Ask others for help if you are not sure how to do it. Before getting started, make sure that the sprayer
+      is properly calibrated so that it is clear how much water comes out of the sprayer every minute.
+      Equipment= The most commonly used knapsack sprayers are the so-called ‘lever-operated knapsack sprayers’
+      Chemical weeding using a knapsack sprayer Prepare the sprayer and do the spraying following these steps
+      Step 1. Fill the knapsack sprayer with water (e.g. 10 L).
+      Step 2. Add the herbicide (e.g. 100 or 200 ml). Note (Always use gloves while adding the herbicide!).
+      Step 3. Close the lid and shake well.
+      Step 4. Fill the sprayer up with more water (e.g. another 5 L) until it is full.
+      Step 5. Spray the weeds with the herbicide solution. Per hectare it is normal to spray 50—200 L of solution (0.5 to 2 L of herbicide) depending on the number of weeds. When
+      doing clear-weeding (not normally a good idea!) more herbicide will be needed (e.g. up to 300 L/ha).
+      Step 6. Keep clear records of when you have sprayed, and how much.
+      Step 7. If it rains less than 4 hours after spraying, repeat the treatment."
+  - tag: oil_palm_seedlings
+    patterns:
+    - "Why should wild oil palm seedlings be removed?"
+    - "What is the impact of volunteer oil palm seedlings?"
+    - "How can we control oil palm seedlings growth?"
+    - "control oil palm seedlings growth?"
+    responses:
+    - "Wild oil palm seedlings/volunteer oil palm seedlings (VOPs) need to be removed to avoid competition for nutrients and water and to facilitate harvesting and collection of loose fruits." 
+  - tag: circle weeding
+    patterns:
+    - "Why is it necessary to undertake circle weeding"
+    - "circle weeding"
+    responses:
+    - "Weed circles are very important to avoid competition for nutrients between oil palm trees and weeds and make it easier for smallholders to see and collect loose fruits.
+      The weed circle should be 1.5-2m from the trunk and clean of any weeds. Circle weeding can be done manually using chisel, bush knife and rake or chemically using herbicides
+      during the path weeding process or just before the first harvest. The weed circle should be kept cleaned afterwards.
+      With cleanly weeded circle
+      • Loose fruits on the ground are easy to spot and to collect
+      • Harvesting can be carried out quickly and efficiently
+      • Efficient application and use of fertilisers"
+  - tag: circle_weeding_frequency
+    patterns:
+    - "How often is circle weeding done"
+    - "circle weeding done"
+    responses:
+    - "Circle weeding can be done once a year if done manually or using herbicides 2 to 4 times per year, depending on the density of the weed growth. Circle weeding should be done shortly peak harvesting season so that harvesting can be done more efficiently."
+  - tag: harvester_paths
+    patterns:
+    - "What are harvester’s paths?"
+    - "harvester’s paths?"
+    - "harvesters path"
+    responses:
+    - "Harvester’s paths are maintained in the palm interrows to allow easy access for harvesting and other field operations. The features of harvester’s paths are:
+      - Paths are between 50—75 cm wide
+      - Paths are completely free of weeds
+      - One path is present every other palm row
+      - Plantations are easy to access (e.g. footbridges over ditches and swamps, no steep slopes, etc.)
+      - Harvesters with heavy wheelbarrows can move around the plantation easily"
+  - tag: harvester_path_maintenance
+    patterns:
+    - "How should harvester’s paths be maintained?"
+    - "harvesters paths be maintained"
+    - "maintained harvesters paths"
+    responses:
+    - "Harvester’s path should be completely free of weeds to facilitate the movement of the harvester and the wheelbarrow around the field. Footbridges and ramps should be built if there is a ditch or canal that needs to be crossed or if there is a steep slope."
+  - tag: foot_bridge_installation
+    patterns:
+    - "How do I install a foot bridge?"
+    - "foot bridge"
+    - "install a foot bridge?"
+    responses:
+  - tag: weed control
+    patterns:
+    - "How can I control Lalang/alang alang?"
+    - "What is the best way to remove Lalang/alang alang?"
+    - "How to get rid of Lalang/alang alang weed?"
+    - "control Lalang/alang alang"
+    - "Lalang/alang alang"
+    responses:
+    - "Lalang/alang-alang is a perennial grass weed and it can be removed manually using hands, chisel or spade if weed population is sparse. Ensure that most of the roots are pulled out to prevent them from growing again. Chemical weeding can be done by spraying with glyphosate using a narrow cone nozzle spray over the leaves of lalang from above.Installing foot bridges and ramps\nAll harvesting paths should lead to a main path (or ‘collection road’) which is accessible for a car, truck or heavily loaded motorbike.\nIf there are ditches or canals that need to be crossed, install foot-bridges which are:\n- Strong and solid (will not collapse when a harvester with a full wheelbarrow walks over it)\n- At least 20 cm wide (best to use a wide plank or several planks attached together)\n- Well attached on both sides and not moving or wobbling (see figure)\nIf there are steep slopes:\n- Dig out a ramp where a harvester with a heavy wheelbarrow can pass easily\n- Put a wooden plank over the ramp to prevent it from getting too slippery."
+  - tag: water_management
+    patterns:
+    - "importance of water management"
+    - "why is water management important"
+    - "water management in oil palm plantation"
+    - "water management"
+    responses:
+    - "Water management is very important to maintain the water level required by palm trees and to mitigate the impacts of drought which can affect the growth of palm trees. The aim is to maintain a constant water table throughout so the palms are not subject to moisture deficit or excessive water during the rainy season."
+  - tag: water_level_management
+    patterns:
+    - "What is the importance of water level management in peatland?"
+    - "importance of water level management in peatland?"
+    responses:
+    - "Water level management at a level of 50-70 cm below the soil surface is very important in peatland to reduce peat depletion and carbon dioxide gas emissions and prevent irreversible drying."
+  - tag: RSPO certification
+    patterns:
+    - "Does RSPO allow new planting on peatland?"
+    - "Can oil palm be planted on peatland under RSPO?"
+    - "RSPO?"
+    responses:
+    - "No, the RSPO Principles and Criteria 2018 prohibit new planting of oil palm on peatland of any depth after November 2018."
+  - tag: oil_palm_pruning
+    patterns:
+    - "Why is pruning of oil palm tree necessary?"
+    - "oil palm tree necessary?"
+    - "necessary of oil palm tree"
+    - "oil palm tree"
+    responses:
+    - "Regular frond pruning of palms is necessary to retain an optimal canopy for photosynthesis and production of FFB. For oil palm aged 5-7 years, 48-56 fronds should be kept, for oil palm aged 8-15 years, 40-48 fronds should be kept while for oil palm more than 15 years old, about 40 fronds should be kept. If palms are not pruned regularly, the canopies become too dense and there is competition for sunlight which could hamper the harvesting of ripe bunches. Pruned fronds should be stacked in the interrows of the palms as they will return nutrients to the soil as they decompose and also protect the soil from erosion."
+  - tag: oil_palm_pruning
+    patterns:
+    - "How to prune oil palm fronds?"
+    - "What is the proper way to prune oil palm?"
+    - "When and how often should oil palm be pruned?"
+    responses:
+    - "Standard pruning includes cutting only dead fronds for palms less than 4 years old. For palms aged 5-7 years, pruning down to 48-56 fronds per palm is recommended, for palms aged 8-15 years, 40-48 fronds per palm, and for palms over 15 years old, about 40 fronds per palm. Frond butts should be cut off close to the trunk and fronds should be cut in two and stacked on the frond stack in a box-shape, with the bottom part behind the palms and the top part between the palms. Pruning should be done shortly before the peak production season and during the dry period if possible. It is recommended to prune oil palm twice a year."
+  - tag: over-pruning
+    patterns:
+    - "over pruning"
+    - "what happens if I prune too much"
+    - "pruning too many fronds"
+    responses:
+    - "Sufficient number of fronds should be maintained because fronds are needed for capturing optimum sunlight for the photosynthesis process. If the number of fronds is less, the photosynthesis process also decreases and results in more male flowers being produced than female flowers which ultimately affects the yield of oil palm bunches."
+  - tag: oil_palm_pruning
+    patterns:
+    - "Can I prune the fronds of a young oil palm?"
+    - "Should I prune the fronds of a young oil palm?"
+    responses:
+    - "For oil palms that are less than 4 years old, only dead, damaged or diseased fronds need to be pruned."
+  - tag: pruning_method
+    patterns:
+    - "What is the recommended method for placing pruned fronds?"
+    - "Where should pruned fronds be placed?"
+    - "How should I stack pruned fronds in the field?"
+    responses:
+    - "Pruned fronds should be placed in the interrow for flat areas and at the end of the contour for terraced areas. After pruning, cut each leaf into two halves, and throw the bottom half (thick stem part with sharp spikes) onto the frond stack behind the palm to prevent injuries. Place the top half on the frond stack on the right or left side of the palm to make the so-called “box shape”. The pruned fronds can also be stacked in the interrow without cutting."
+  - tag: water_management
+    patterns:
+    - "Why is it necessary to keep the water gates and drains well-maintained and cleaned?"
+    responses:
+    - "The water gates should be maintained regularly while ensuring they are fully open during the rainy season to prevent rising or running water from causing standing water (water stagnation) in the field. The drains should also be kept clean from the pruned fronds, weeds or any other objects to ensure the water flows more efficiently in the field."
+  - tag: road_access
+    patterns:
+    - "Why is it important to maintain good road access to the farm?"
+    responses:
+    - "If roads are in bad condition, transport of the fresh fruit bunches will be slower and therefore more expensive. Regular maintenance of roads also prevents damage from becoming too large to repair:\n• Ensure fast and efficient transport of fresh fruit bunches to the mill;\n• Ensure good access to the plantations for farmers and labourers;\n• Reduce damage to trucks."
+  - tag: road_maintenance
+    patterns:
+    - "What are the typical road repair/maintenance works?"
+    responses:
+    - "Routine maintenance of roads should include:\n• Graveling of roads;\n• Filling in potholes;\n• Cleaning weeds from roadsides and ditches.\n\nRoads should be checked regularly, especially for potholes and for collapse of the road surface at the sides of the road:\n• Inform responsible parties (e.g. local government, cooperative) immediately if the road needs repair work.\nIf the damage is too large, consider hiring local construction workers to carry out the repairs."
+
+  - tag: road_maintenance
+    patterns:
+    - "When is the good time to maintain and repair roads?"
+    responses:
+    - "• Before the peak production season;\n• Before and after the rainy season.\n• Small repairs undertaken as needed;\n• Large check/repairs completed yearly."
+  - tag: oil_palm_pests_diseases
+    patterns:
+    - "What are the major pests and diseases that could affect the growth and productivity of oil palm in Southeast Asia?"
+    responses:
+    - "Oil palm pests are animals, usually insects (such as caterpillars), or mammals (such as rats), which cause damage to the palms. Diseases on the other hand, are caused by micro-organisms such as fungi, bacteria and viruses. Pests and diseases can reduce oil palm yield, damage fruit bunches or the palms, and sometimes even kill the palm. It is important to monitor the plantation at least every two months, to find pest and disease outbreaks as early as possible. The most common pests and diseases of oil palm in Southeast Asia include: Rats (cause damage to fruit bunches), Leaf-eating insects (cause damage to palm fronds), Rhinoceros beetles (cause damage to the leaves and the growing point of immature palms), Termites (causes sever damage or death of young and old palms), Basal Stem rot (a severe fungal infection of the trunk that can kill the palm)."
+  - tag: pest_outbreaks
+    patterns:
+    - "Why does pest outbreaks occur?"
+    responses:
+    - "In nature, pests are normally kept in check by their respective natural enemies. Although palms may be infested by pests from time to time, the damage is economically not significant. However, when conditions such as droughts or over-use or misuse of pesticides prevail, the population of pests may increase beyond the capability of the control by natural enemies. Severe outbreaks of pests could affect the development of young palms and severe defoliation could decline in productivity or even death of the oil palm."
+  - tag: pest_management
+    patterns:
+    - "what is integrated pest management"
+    - "what does IPM mean"
+    responses:
+    - "Integrated pest management (IPM) uses a combination of cultural, physical, biological and chemical control practices in an overall pest and disease management plan that optimizes the use of inputs to control damage to a minimum economic level, maximize yield and minimal use of pesticides."
+  - tag: pesticide_use
+    patterns:
+    - "can i use pesticides in my oil palm plantation"
+    - "is it safe to use pesticides in oil palm plantation"
+    responses:
+    - "Pesticides should be used only when necessary, when other control measures are found to be ineffective in managing a build-up of the pest population, As they can kill beneficial insects and animals that live in and around the oil palm plantations, application of pesticides should be done judiciously, according to instructions on the product label."
+  - tag: pesticides
+    patterns:
+    - "Can I use pesticides in my oil palm plantation"
+    responses:
+    - "Pesticides should be used only when necessary, when other control measures are
+      found to be ineffective in managing a build-up of the pest population, As they can kill
+      beneficial insects and animals that live in and around the oil palm plantations, application
+      of pesticides should be done judiciously, according to instructions on the product label."
+  - tag: guidelines_pesticides
+    patterns:
+    - "What are the general guidelines for handling and using pesticides"
+    responses:
+    - "Herbicides, pesticides and other agrochemicals are often toxic to humans, animals and palms, and should be used sparingly and with care.
+      • Always follow the rules and regulations as set by the government
+      • Always read the label carefully before applying chemicals. If you don’t understand
+        entirely, ask the salesman or an extension worker
+      • When preparing chemicals, follow the instructions on the package carefully
+      • Application of chemicals should always be carried out wearing full protective
+        clothing including rubber gloves, boots, mask, rubber apron, and safety glasses
+      • Spraying or trunk injection should be done only by workers who have followed a training course
+      • Spray equipment should be kept clean and in good shape
+      • All containers holding chemicals should be labelled according to their content (e.g.“Herbicide: [Name], “Pesticide: [Name]”, etc.)
+      • Never store food in containers that were used for chemicals or fertilisers."
+  - tag: spray_operators
+    patterns:
+    - "Are pesticides harmful to spray operators?"
+    responses:
+    - "YES, pesticides are toxic to spray operators and should be used with much caution
+      and care. Full protective clothing (PPE) should always be worn while handling pesticides."
+  - tag: PPE
+    patterns:
+    - "What personal protective equipment (PPE) must I wear to protect myself during application of pesticides?"
+    responses:
+    - "PPE that must be worn during application of pesticides and its functions are listed below:
+      ● Rubber boots must be worn for all field operations especially when handling and spraying pesticides
+      ● Respirators must be worn during preparation chemical solutions and while spraying pesticides in the field
+      ● Goggle or face shield must be worn to protect the eyes in all operations involving pesticides especially during spraying
+      ● Rubber gloves must be worn all the time during chemical solutions preparation,during spraying until washing the PPE and disposal of chemical containers
+      ● Apron must be worn for all operations related to pesticides
+      ● Wear long sleeve shirts and trousers to protect whole body from pesticide contamination."
+  - tag: splash
+    patterns:
+    - "What must I do if I accidentally splash pesticide solution on my body?"
+    responses:
+    - "Treatments/Actions that I must do if my body part is exposed to pesticides include:
+      • Remove any clothing the pesticides spilled onto.
+      • Wash the pesticide off the skin as quickly as possible with soap and cold running water.
+      • If pain persists, seek medical help. Take along the label from the pesticide container or
+        the name of the pesticide for the attention of the doctor or paramedic."
+  - tag: pesticide_eye
+    patterns:
+    - "What must I do if I accidentally splash pesticide solution on my eyes?"
+    responses:
+    - "All used pesticide containers must be rinsed three times and punctured. Then, it needs to be labelled and sent to a collection agent or properly kept in a store. It shall not be used as a container for storing food and drinks."
+  - tag: containers
+    patterns:
+    - "What is the proper way to dispose of used pesticides containers?"
+    responses:
+    - "All used pesticide containers must be rinsed three times and punctured. Then, it
+      needs to be labelled and sent to a collection agent or properly kept in a store. It shall not be used as a container for storing food and drinks."
+  - tag: eating_pests
+    patterns:
+    - "What are the major leaf eating pests of oil palm?"
+    responses:
+    - "The major leaf eating pests that infest oil palm plantations in Southeast Asia are
+      bagworms (Pteroma pendula, Metisa plana, Mahasena corbetti), tussock moths (Dasychira spp., Orgyia spp.), and nettle caterpillars (Darna trima, Setora nitens, Setothosea asigna)."
+  - tag: eating_pests
+    patterns:
+    - "How can beneficial plants reduce the incidence of leaf eating pests?"
+    responses:
+    - "Beneficial plants such as Turnera and Cassia act as a host and supply honey/nectar
+      to beneficial insects/natural enemies of the leaf eating pests. When more beneficial plants
+      are planted around the plantations area, the population of leaf eating pests will als decrease."
+  - tag: leaf_eating_pests
+    patterns:
+    - "How do I control leaf eating pests?"
+    responses:
+    - "Bagworm is known as one of the most significant leaf eating pests of oil palm. The
+      most feasible controlling method in response to bagworm outbreak is through the adoption
+      of integrated pest management (IPM) method that includes aerial spraying of Bacillus
+      thuringiensis (Bt), planting of beneficial plants and installing of natural pheromone traps in the field.
+      Steps to control infestations of leaf eating pests such as bagworms, nettle caterpillars and tussock moths are:
+      Prevention Measures:
+      • Plantation management and cleanliness meets the standard criteria and promote biological control of pest populations
+      • Continuous and periodic monitoring and reporting on leaf eating pest infestation to the Extension Officer
+      Biological Control:
+      • Planting beneficial plants along the plantation border to increase natural enemy/beneficial insect populations to reduce attack of leaf eating pests. This plant
+        becomes hosts for beneficial insects and supplies honey/nectar to them
+      • Natural enemies/beneficial insects are capable parasitic insects that kill leaf eating pests for example by laying eggs on pest’s larvae
+      • Spraying using beneficial bacteria, Bacillus thuringiensis (Bt) is effective in killing leaf eating pests and it is harmless to the beneficial insects, animals and humans
+      Chemical Control:
+      • Selective pesticide application done through the directed spray application or the trunk injection method on the oil palm stem/trunk
+      • The chemical spray method will have an effect on the beneficial insects while injection on
+        the trunk of the tree is more suitable for the treatment of mature palms and seriously infected trees
+      • When using systemic insecticides through stem injection methods, the insecticide will
+        move through tree sap/fluid and be taken to the leaf tissue. Therefore, only leaf eating pest will be affected
+      • The effectiveness of using injections on the trunk can takes up to 24 hours if it is done on
+        the correct stage of the leaf eating pests"
+  - tag: bunch
+    patterns:
+    - "What is the insect pest that affects the oil palm bunch?"
+    responses:
+    - "Oil palm bunch moth (Tirathaba)"
+  - tag: Tirathaba
+    patterns:
+    - "How do I control the bunch moth (Tirathaba)?"
+    responses:
+    - "Oil palm bunch moth (Tirathaba rufivena) attacks can be prevented by removing
+      damaged bunches and fronds near them. Attacked male and female oil palm flowers should
+      also be removed to eliminate the breeding grounds of the bunch moth. Biological control
+      can be done by spraying Bacillus thuringiensis (Bt) on the affected part of the bunch. While
+      chemical control is done by spraying insecticides containing cypermethrin to kill bunch moth larvae."
+  - tag: Rhinoceros_beetle
+    patterns:
+    - "What are signs/symptoms of attack by Rhinoceros beetle?"
+    responses:
+    - "Damage caused by rhinoceros beetles can be identified through:
+      ▪ Existence of holes at the base of the tree&#39;s fronds
+      ▪ The fronds will bend or break when damaged
+      ▪ Defects on new fronds
+      ▪ Young oil palm trees will die if shoots palm is eaten by beetles
+      ▪ The tip of the leaf shoot is triangular and breaks off at some parts."
+  - tag: Rhinoceros_beetle
+    patterns:
+    - "How do I control Rhinoceros beetles in young palms?"
+    responses:
+    - "Good plantation monitoring and maintenance are important in young palm as Rhinoceros beetles mostly infect immature oil palms. Rhinoceros beetle breeding sites such
+      as standing logs, dead and rotting wood and rubbish piles must be cleared from the plantation to prevent outbreaks. Meanwhile, felled oil palm trunk need to be pulverize to
+      restrict the availability of the breeding grounds for the beetles. Cultivation of leguminous plants can also help to reduce the reproduction of Rhinoceros beetles where it acts as a
+      physical barrier to the breeding sites.
+      Rhinoceros beetle is a also common pest in coconut palms, so if there is a coconut
+      plantation nearby, attacks on oil palm plantations are more likely to occur. Severe
+      infestation by Oryctes can kill large numbers of young palms, so good plantation monitoring and maintenance are important."
+  - tag: symptoms_of_infestation
+    patterns:
+    - "What are the signs/symptoms of infestation by termites?"
+    responses:
+    - "Symptoms of termite attack:
+      ● The presence of mud-work at the base of leaf spear, flowers and young fruit bunches (termite attack starting from young shoots (meristem) and not from the palm trunk base)
+      ● Leaf spear and some young fronds turn into brown and dry
+      ● The base of the frond’s rots and collapse
+      ● The entire palm tree will dry and fall"
+  - tag: termites
+    patterns:
+    - "How do I control termites in young mature palms?"
+    responses:
+    - "Steps to control termites infestation in young mature palms are:
+      • Controlling the water level in peat soil to force termites to move to the surface of the soil
+      • Monitoring the presence of fresh mud (termite nests)
+      • Baiting termites with rubber sticks or cardboard
+      • Destroying termite food sources
+      Chemical Control:
+      • Spraying and drying with chlorpyrifos (38ml/5l water) at the oil palm trunk base or stem during the initial stage
+      • For long-term pest management (5-6 months), baiting, spraying and drying with fipronil (5ml/5L water) can be done"
+  - tag: damage_rats
+    patterns:
+    - "What are the signs/symptoms of damage caused by rats?"
+    responses:
+    - "Signs of damage caused by rats on immature palms can be seen where they attack
+      and feed on young shoots and the base of young palms, which sometimes killing the palm,
+      while on older palms, damage can be seen on the male and female flowers, young bunches
+      which are growing and ripening fruit bunches and also loose fruits."
+  - tag: plantation
+    patterns:
+    - "How do I control rats in my plantation?"
+    responses:
+    - "Steps to control rats attack in plantation are:
+      • Regular visit at least once a month for immature tree plants to detect damage due to a recent rat attack
+      • Checking palm fruit bunches to see the presence and signs of rodent damage during harvest
+      • If there is rodent damage during harvesting, all other bunches should be checked
+      • Fruit bunch damage due to rodent attacks should be less than 10 percent
+
+      Biological Control:
+      • Placement of predators such as barn owl
+      • Barn owls can eat large amounts of rats with a pair of owls able to eat around 160 rats/ha/year
+      • Barn owl nest boxes should be installed in every 8-10 ha oil palm to achieve a good owl population
+      • Cooperate with the surrounding gardeners to buy and keeping barn owls, especially for small farms (cost sharing)
+      • Place the owl&#39;s nest box with a height of 5.5m from ground level with the position of the entrance window facing along the row of palm trees
+      Chemical Control:
+       Rat baits containing rodenticides, formulated as wax cubes, can be used to supplement biological control by barn owls."
+  - tag: controlling_rats
+    patterns:
+    - "How effective is the barn owl as a biological control agent for controlling rats?"
+    responses:
+    - "Barn owls are capable of eating large amounts of rats with a pair of owls able to eat around 160 rats/ha/year and it helps to control rodent populations in oil palm
+      plantations. However, if outbreaks happen where the number of rats grows rapidly,
+      biological control using barn owls is no longer effective. Therefore, chemical control needs to be taken to control this outbreak."
+  - tag: controlling_rats
+    patterns:
+    - "What is Ganoderma basal stem rot disease?"
+    responses:
+    - "Basal stem rot disease is a fungal disease of oil palm caused by the species of Ganoderma. It is considered as one of the most destructive diseases affecting oil palm
+      plantations in Malaysia and Indonesia. The infection causes decay of the internal tissues limiting the supply of water and nutrients to the entire palm tree. Ganoderma disease
+      infection can cause a decrease in yield and in severe cases will cause the death of oil palm trees. Ganoderma infection can be minimized through good management practices.
+      However, treatment only prolongs life but oil palm trees cannot fully recover from Ganoderma disease infection."
+  - tag: Ganoderma__disease
+    patterns: 
+    - "What are the symptoms of damage caused by the Ganoderma disease?"
+    responses:
+    - "Ganoderma bodies will appear in the infected tree area. In addition, other visible signs are the young leaves looking pale green or yellowish, the accumulation of several
+      unopened young shoots at the top of the tree and dead fronds hanging around the trunk of the oil palm tree."
+  - tag: Ganoderma__disease
+    patterns: 
+    - "How do I control Ganoderma disease in my plantation?"
+    responses:
+    - "Steps to control Ganoderma disease infestation in plantation are:
+      • Remove Ganoderma fruiting bodies (brackets) from infected oil palm trees and destroy it
+      • Make a pile of soil around the base of the infected palm tree
+      • Remove dead infected trees from plantation and burn them
+      • Farms are left without palm trees for at least 12 months after felling the infected trees
+      • New palm seedlings cannot be planted in the same hole as old oil palm infected with Ganoderma but in a place that previously placed with a pile of fronds or on a harvesting path
+      • For long-term planning, the use of planting materials resistant to Ganoderma disease is suggested
+      Biological Control:
+      • Use of antagonistic fungi such as Trichoderma sp., because its antagonistic effect in controlling the growth of other fungi
+      • The use of endophyte bacteria such as P. aeruginosa because its potential to inhibit Ganoderma’s mycelium growth
+      Chemical Control:
+      • Use of fungicides such as Hexaconazole or Tetraconazole to extend the life of infected palm trees"
+  - tag: fertilizers
+    patterns: 
+    - "Why is it necessary to apply fertilizers to oil palm"
+    responses:
+    - "Palm trees require high input of nutrients to grow in a healthy way and sustain high yield. Therefore, application of fertilizers containing optimum balanced nutrients
+      associated with proper fertilization techniques will help to increase the growth rate of palm trees and raise their yield while minimizing cost and potential negative impacts on the
+      environment. When the productivity of fresh fruit bunches (FFBs) increases, this will ensure profitability of growers."
+  - tag: insufficient_fertilizers
+    patterns: 
+    - "What happens if insufficient fertilizers (both organic and inorganic) are given to oil palm?"
+    responses:
+    - "The lack of one or more fertilizer nutrients will affect the growth and productivity
+      of trees, among them are stunted growth with small fronds, fronds with symptoms such as
+      yellowing and dryness, low yield productivity and trees easily attacked by pests and diseases."
+  - tag: chemical_fertilizers
+    patterns: 
+    - "What are inorganic or chemical fertilizers?"
+    responses:
+    - "Inorganic fertilizers are referred to as synthetic or chemical fertilizers, which do not contain plant- or animal-based materials such as animal manures, decaying leaves and
+      (food) compost but comprise of minerals or synthetic chemicals. Generally, the synthetic
+      nitrogen (N) fertilizers are manufactured from petroleum or natural gas whereas the
+      chemical elements such as phosphorus (P), potassium (K) and other trace elements in
+      inorganic fertilizers are prevalently mined from the earth. Likewise organic fertilizers,
+      balanced inorganic fertilizers are also high in macronutrients i.e. NPK. For instance,
+      inorganic fertilizers products with high NPK include ammonium nitrate, ammonium
+      sulphate, rock phosphate, muriate of potash (potassium chloride), etc. Nutrient delivery
+      with inorganic fertilizers for plant growth is rapid but it raises the N concentration in the
+      soil which could burn the plant and it may lead to nutrient leaching into the soil and pollute the environment."
+  - tag: organic_fertilizers
+    patterns: 
+    - "What are organic fertilizers?"
+    responses:
+    - "Organic fertilizers are referred to as fertilizers that are produced naturally and mainly composed of plant- or animal-based materials including animal manures, decaying
+      leaves/fronds/trunks, empty fruit bunches (EFBs) and palm oil mill effluents (POME). When
+      compared to inorganic fertilizers, nutrient delivery with organic fertilizers for plant growth
+      is slower because organic fertilizers rely on the soil organisms to break down the organic
+      materials to release nutrients for plant uptakes. Generally, the cost of organic fertilizers is
+      also more expensive than inorganic fertilizers. Nevertheless, soil composition and texture
+      are better with organic fertilizers because organic fertilizers will continue to enhance the
+      soil after the required nutrients have been taken up by the plant and thus, organic fertilizers are more environmentally friendly."
+  - tag: nitrogen_deficiency
+    patterns: 
+    - "What are the signs/symptoms of nitrogen deficiency?"
+    responses:
+    - "The symptoms of nitrogen (N) deficiency are the colour of the midrib of the leaf to
+      turn yellow or bright orange and the leaf turns to a light green or yellow colour as a whole,starting from the older leaves."
+  - tag: nitrogen_deficiency
+    patterns: 
+    - "What are the effects of nitrogen deficiency?"
+    responses:
+    - " The effects of nitrogen (N) deficiency on oil palm include but not limited to small
+        yellowish canopy, shorter palm, smaller stem diameter, lighter fronds, less and smaller fruit
+        bunches, more male flowers, higher abortion rate and fruit bunch failure."
+  - tag: phosphorus_deficiency
+    patterns: 
+    - "What are the signs/symptoms of phosphorus deficiency?"
+    responses:
+    - "Palm trees with phosphorus (P) deficiency tend to have shorter or stunted leaves
+      and their bunches are smaller in size which contribute to lower yield. The most significant
+      symptom of P deficiency of an oil palm is the observed pyramid-shape on the trunk in which
+      the bottom part of the trunk is much wider while the top is thinner than the average. The
+      detection of P deficiency in the oil palm field also can be made through the observation on
+      the presence of weeds such as Melastoma malabathricum (Senduduk), Dicranopteris
+      linearis (paku resam) and Imperata cylindrica (lalang) with purple-coloured leaves. The
+      other sign of palm trees which require a lot of P fertilizers is usually when the legume cover
+      crops (LCCs) grow poorly is detected in the field."
+  - tag: phosphorus_deficiency
+    patterns: 
+    - "What are the effects of phosphorus deficiency?"
+    responses:
+    - "The lack of phosphorus (P) component in a palm tree will cause considerable
+      disruption to its growth and development functions that include decreased leaf expansion,
+      leaf surface area and leaf number. As phosphorus component plays an important role in
+      photosynthesis process, lack of the component in the palm tree will reduce the efficiency of
+      photosynthesis attributed to the reduction of chlorophyll content in the plant tissues."
+  - tag: phosphorus_deficiency
+    patterns: 
+    - "What are the signs/symptoms of potassium deficiency?"
+    responses:
+    - "The most common visible deficiency symptom of potassium (K) is the appearance
+      of yellow or orange spots with an irregular shape (starting from older leaves). While in the
+      early stage of K deficiency, spots with pale green color can be observed on the interveinal
+      areas of the pinnae of older fronds. With increasing severity, necrosis occurs and older fronds will desiccate and die."
+  - tag: magnesium_deficiency
+    patterns: 
+    - "What are the effects of magnesium deficiency?"
+    responses:
+    - "The effects of magnesium (Mg) deficiency include lighter fronds, smaller leaves, leaf area and leaf production, and reduced yield."
+  - tag: boron_deficiency
+    patterns: 
+    - "What are the signs/symptoms of boron deficiency?"
+    responses:
+    - "The signs of boron (B) deficiency are the leaves are crinkled with dark green color,
+      the tips of the small leaves fold sharply and sometimes disappear completely and the new
+      fronds become shorter while the top of the oil palm looks flat."
+  - tag: boron_deficiency
+    patterns: 
+    - "What are the effects of boron deficiency?"
+    responses:
+    - "The effects of boron (B) deficiency are reduced yield attributed to floral abortion and stunted growth and development of roots and leaf tips."
+  - tag: Cu_Zn_deficiency
+    patterns: 
+    - "What is the effect of copper (Cu) and zinc (Zn) deficiency on palm oil plants?"
+    responses:
+    - "The effect of lack of elements copper (Cu) and zinc (Zn) will cause the bone of the
+      leaf to die from the tip inward, the leaf dies from the tip inward and the youngest leaves will turn yellow at the tip of the leaf and the new fronds will become shorter."
+  - tag: fertilization
+    patterns: 
+    - "What is the effective fertilization method for palm oil plants?"
+    responses:
+    - "Fertilization should be done after all weeds have been removed to avoid
+      competition for fertilizer. The effective placement of fertilizer and the appropriate quantity
+      depends on the age of the tree. For trees that are close to drainage, fertilizer should be
+      sprinkled on the pile of fronds to prevent nutrient runoff into water drainage. The most
+      suitable time to fertilize is in the moderately humid season."
+  - tag: EFB
+    patterns: 
+    - "What is the function of empty fruit bunch (EFB) mulch?"
+    responses:
+    - "Empty fruit bunches (EFB) are used as mulch in the oil palm plantations because
+      they contain high nutrients and organic matter to increase soil fertility and meet the
+      nutrient needs of oil palm trees. However, it is recommended to continue using N fertilizer
+      because N in EFB is mostly unavailable."
+  - tag: EFB
+    patterns: 
+    - "What is the method of using empty fruit bunches (EFB) in oil palm plantations?"
+    responses:
+    - "Empty fruit bunches (EFB) are arranged with only one layer of bunches to speed up decomposition and prevent rhinoceros beetles from using EFB as a breeding ground. For
+      immature oil palm plants, EFB is used as mulch around the plants while for mature oil palm plants, EFB is arranged between rows of plants."
+  - tag: cover_crops
+    patterns: 
+    - "What is the purpose of planting ground cover crops in oil palm plantations?"
+    responses :
+    - "Ground cover plants function to control weeds in oil palm plantations, prevent
+      erosion and loss of soil organic matter, maintain soil moisture and temperature, control
+      rhinoceros beetle attacks, supply nitrogen through N fixation and to attract the presence of
+      insects that are natural enemies of pests. One of the ideal legume cover crops for planting in the plantation is Mucuna bracteata."
+  - tag: micronutrients
+    patterns: 
+    - "What are the required macronutrients and micronutrients for plant growth and development?"
+    responses :
+    - " Macronutrients are nutrients that are required in large quantities by the plants but they are easily deficient in plants. Whereas, micronutrients are referred to as nutrients that
+        are required in small quantities by the plants and they are less frequently deficient in plants
+        as compared to macronutrients. Both macronutrients and micronutrients are important for
+        optimum plant growth and development. Nitrogen (N), phosphorus (P), potassium (K) and
+        magnesium (Mg) are the main examples of the vital macronutrients required in plants.
+        Whereas, boron (B), copper (Cu), iron (Fe) and zinc (Zn) are the micronutrients. When the
+        plants lack any of these nutrients (nutrients imbalance), stunted growth and decreased productivity in plants will occur."
+  - tag: fertilizer_efficiency
+    patterns: 
+    - "What are the common contributing factors of reduced fertilizer efficiency?"
+    responses :
+    - "The common contributing factors of reduced fertilizer efficiency include nutrients
+      imbalance, incorrect fertilizers application methods and techniques, wrong timing of
+      fertilizers application, attack of pests and diseases and weeds competition."
+  - tag: conserve_soil
+    patterns: 
+    - "What approaches should be practiced to conserve soil and improve soil condition?"
+    responses :
+    - "In combination with proper fertilizers application methods and techniques (correct fertilizers type, amount, frequency and timing), planting of legume cover crops (LCCs) and
+      greater use of oil palm by-products such as empty fruit bunches (EFBs), pruned fronds and
+      palm oil mill effluents (POME) in the plantation are also identified as the important
+      approaches for soil conservation and soil conditional improvement. These organic materials
+      will be broken down by the soil microorganisms and thus, it enhances the nutrient recycling process."
+  - tag: harvest_fruit_bunches
+    patterns: 
+    - "Why is it important to harvest only ripe fresh fruit bunches?"
+    responses :
+    - "Harvesting of unripe bunches can lead to rejection by the mill because it has a very
+      low oil content and can cause growers to incur losses."
+  - tag: harvest_practices
+    patterns: 
+    - "What are good harvesting practices?"
+    responses :
+    - "Good harvesting practices are practices that result in large quantities of fresh fruit bunches harvested, high oil extraction rates, and good quality oil. Good harvesting practices include:
+      • Harvesting using correct procedures (frond cutting, bunch cutting);
+      • Harvesting only ripe bunches;
+      • Good and fast transport of the bunches to the mill;
+      • Limited loss of loose fruits in the field or during transport (loose fruits have an oil content of more than 40 percent!)
+      The free fatty acid content will be less than 5% if harvesting standards are followed; in particular it is important to ensure fast transportation to the mill and harvesting fruit at the correct ripeness.
+      For good transportation, the roads need to be maintained. While road maintenance can require large investments, bad conditions can make transportation of the harvest slow and
+      more expensive. To avoid loss of fruit bunches or oil quality during its transport to the mill, the cooperatives, farmer groups or traders should set clear rules which include:
+      • Quality of the truck;
+      • Speed of transportation;
+      • Covering of full trucks with a net."
+  - tag: harvest_ripe_bunches
+    patterns: 
+    - "How do I know when to harvest a ripe bunch?"
+    responses :
+    - "Ripe fruit bunches can be identified by their characteristic’s reddish orange in color
+      while the outer mesocarp is orange in color. It has at least 10 fresh loose fruit found in the
+      weed circle and more than fifty percent (50%) fruit still attached to the bunch during inspection at the factory."
+  - tag: harvest_ripe_bunches
+    patterns: 
+    - "How to harvest fresh fruit bunch efficiently and effectively?"
+    responses :
+    - "A good harvesting system is needed in order that farmers are able to
+       cut and collect all ripe fruit bunches in a plantation;
+       harvest fresh fruit bunches without damaging the fruit and the palm;
+       get fresh fruit bunches with excellent oil content and quality;
+       get maximum profit from harvested fresh fruit bunches.
+      Good harvesting practice:
+       All ripe fruit bunches are harvested at every harvesting round;
+       Harvesting is done at least once every 10 days;
+       Bunches are harvested at the right time and ripeness and in the right way,without causing damage to the bunch and the palm;
+       The minimum ripeness standard of 1—4 loose fruits per bunch is followed (only if harvesting is done at least every ten days);
+       Stalks are cut to less than 2 cm in length;
+       The quantity of harvested fresh fruit bunches is correctly recorded at each harvest.
+      Timing
+      All year round.
+      Frequency
+       Once every 7—14 days;"
+  - tag: FFB
+    patterns: 
+    - "How is it important to deliver harvested FFB as soon as possible to the mill,within 24 hours of harvesting?"
+    responses :
+    - "Harvested FFB must be delivered to mills within 24 hours of harvesting to
+      maximize fruit and oil quality. If it is delivered more than 24 hours, the concentration of
+      free fatty acids (FFAs) will increase beyond the acceptable range of the international market and also make the oil go rancid."
+  - tag: FFB
+    patterns: 
+    - "How do I harvest ripe FFB from palms of less than 2.5m height?"
+    responses :
+    - "Harvesting of FFB from palms of less than 2.5m height can be done using the chisel."
+  - tag: FFB
+    patterns: 
+    - "How do I harvest FFB from palms of more than 2.5m height?"
+    responses :
+    - "Harvesting of FFB from palms of more than 2.5m height can be done using the sickle."
+  - tag: FFB
+    patterns: 
+    - "Why is it important to collect all loose fruits?"
+    responses :
+    - "The loose fruits need to be collected to increase the oil extraction rate (OER) and
+      the profitability of the plantation as loose fruits have the highest oil content. Incomplete
+      collection of loose fruits will result in the growth of volunteer oil palm seedlings (VOPS)."
+  - tag: harvested_crops
+    patterns: 
+    - "Why is it important for me to keep records of harvested crops and expenses involved in the production?"
+    responses :
+    - "It is important to keep farm activities record so that strategic plans can be well
+      designed to improve the efficiency of palm oil plantation management activities and also helps in controlling costs and maximising profitability."
+  - tag: produce_flowers
+    patterns: 
+    - "Why do my palm trees often produce male flowers instead of female flowers?"
+    responses :
+    - " Typically, oil palms produce unisexual male and female flowers in alternating
+      cycles. However, oil palm has the ability to change the gender of the flowers produced in
+      response to environmental factors. Through research and observation, oil palm sex
+      determination is strongly influenced by climatic factors, with the production of male
+      inflorescences promoted by water deficit or water stress. In addition, stress associated with
+      leaf pruning was found to cause female inflorescences to experience higher abortion rates than male inflorescences."
+  - tag: palm_fruit
+    patterns: 
+    - "What is the average weight of a bunch of palm fruit?"
+    responses :
+    - "The average weight of a bunch of fruit will increase from less than 10 kg to 27 kg
+      per bunch according to the age of the tree. If fertilization is adequate, the fruit weight can
+      increase up to 35 kg per bunch."
+  - tag: sustainable_palm
+    patterns: 
+    - "What is sustainable palm oil"
+    responses :
+    - "Sustainable palm oil is defined by the RSPO as production comprising legal,
+      economically viable, environmentally appropriate and socially beneficial management and
+      operations. Sustainable palm oil production has positive outcomes of People, Planet and Prosperity."
+  - tag: sustainable_palm
+    patterns: 
+    - "What is certified sustainable palm oil (CSPO)"
+    responses :
+    - "CSPO is palm oil that has been produced according to requirements (standards) by
+      sustainability certification schemes such Roundtable on Sustainable Palm Oil (RSPO) and it
+      has been verified by independent 3 rd party certification bodies."
+  - tag: sustainable_palm
+    patterns: 
+    - "What are the certification standards for sustainable palm oil production by oil palm smallholders?"
+    responses :
+    - "The main certification standards that are applicable to smallholder production
+      includes RSPO, MSPO (Malaysian Sustainable Palm Oil) and ISPO (Indonesian Sustainable Palm Oil)"
+  - tag: sustainable_palm
+    patterns: 
+    - "Is it compulsory for smallholders to be certified against these standards?"
+    responses :
+    - "Certification under RSPO is voluntary as it is business-to-business (B2B)
+      certification scheme. Smallholders who have received RSPO certification would gain better
+      access to international markets. MSPO and ISPO are national standards for Malaysia which
+      would ensure compliance of applicable laws in Malaysia and Indonesia respectively. Since
+      2020, all smallholders (scheme and independent smallholders) in Malaysia are required to
+      be certified against MSPO. In Indonesia, smallholders must meet the ISPO requirements by 2025."
+  - tag: sustainable_palm
+    patterns: 
+    - "What are the benefits of producing certified sustainable palm oil (CSPO)?"
+    responses :
+    - "Smallholders who produce CSPO would have better access to the international
+      markets and can expect a price premium for their production. For example, under the RSPO
+      scheme, smallholders can earn additional income by selling their CSPO certificates in the
+      market. Besides the extra income from selling their CSPO credits, the benefit from
+      sustainable production is significant increase in productivity and farm income through
+      application of best management practices prescribed by the certification schemes. With
+      better operational efficiency, costs would also be reduced. In the long term, production of
+      sustainable would ensure a better livelihood for smallholders and their families."
+  - tag: Regenerative_Agriculture
+    patterns: 
+    - "What is Regenerative Agriculture?"
+    responses :
+    - "Regenerative Agriculture is a holistic land management practice that
+      improves soil health, primarily through the practices that increase soil organic matter. It
+      increases biodiversity both above and below the soil surface and increases both water holding capacity and sequestering carbon at greater depths."
+  - tag: Regenerative_Agriculture
+    patterns: 
+    - "What are the main practices under Regenerative Agriculture?"
+    responses :
+    - "The main regenerative agricultural practices include but are not limited to no-till
+      farming, rotational grazing, mixed crop rotation, cover cropping, compost/manure
+      application, intercropping, agroforestry and perennial cropping, afforestation, reduction in
+      use of pesticide/chemical, rainwater harvesting, efficient water management system, crop
+      and livestock integration, biodiversity conversation (riparian zones and natural habitat),
+      community involvement, pollution prevention (reduction and recycling of farm wastes, and
+      reduction of greenhouse gas emissions), use of renewable energy, etc." 
+  - tag: Regenerative_Agriculture
+    patterns: 
+    - "What is Regenagri?"
+    responses :
+    - "Regenagri is a regenerative agriculture initiative aimed at securing the health of
+      the land and the wealth of those who live on it. It supports farms and organisations to
+      transition to holistic farming techniques that increase soil organic matter, encourage
+      biodiversity sequester CO 2 and improve water and energy management." 
+  - tag: Regenerative_Agriculture
+    patterns: 
+    - "Can smallholder palm oil production be certified by Regenagri?"
+    responses :  
+    - "Yes, palm oil smallholders can be certified against the regenagri standard criteria.
+      In order to be certified, the degree of implementation of regenerative agricultural practices
+      applicable to oil palm plantation operation will be assessed and evaluated. Some of the
+      applicable parameters for regenagri certification in oil palm include cover cropping, tillage
+      management/land management, intercropping, agroforestry and perennial cropping,
+      afforestation, compost/manure application, absence of pesticide/chemical use,
+      biodiversity, conservation of natural habitat, community involvement, other farm
+      management practices, irrigation is based on need and efficiency measures, pollution
+      prevention, renewable energy and existing certifications."
+  - tag: Regenerative_Agriculture
+    patterns: 
+    - "Are crop/livestock integration activities with palm oil profitable?"
+    responses : 
+    - "Yes, crop/livestock integration activities with palm oil are very profitable and can
+      increase the income of smallholders if managed well. For example, banana plants together
+      with palm oil can generate income of up to RM 2,400 - RM 3,400 per hectare."
+  - tag: Regenerative_Agriculture
+    patterns: 
+    - "At what age is palm oil suitable for integration activities?"
+    responses : 
+    - "It depends on the type of crop/livestock you want to cultivate. For example,
+      interplanting with short-term crops like maize and groundnuts can be done when the palm
+      trees are immature (usually less than 3years old), while cattle/goat rearing can be
+      integrated when the palm trees are 4 to 18 years old."
